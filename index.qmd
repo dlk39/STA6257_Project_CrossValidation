@@ -1,6 +1,6 @@
 ---
 title: "Sample Report - Data Science Capstone"
-author: "Student name"
+author: "Danielle Koche"
 date: '`r Sys.Date()`'
 format:
   html:
@@ -103,3 +103,54 @@ ggplot1 = murders %>% ggplot(mapping = aes(x=population/10^6, y=total))
 ### Conclusion
 
 ## References
+
+## Week 2 Research
+
+Article 1:
+
+Citation: Xiong, Z., Cui, Y., Liu, Z., Zhao, Y., Hu, M., & Hu, J. (2020). Evaluating explorative prediction power of machine learning algorithms for materials discovery using k-fold forward cross-validation. Computational Materials Science, 171, 109203.
+
+Title: Evaluating explorative prediction power of machine learning algorithms for materials discovery using k -fold forward cross-validation
+
+Summary: The authors of this paper have identified a need to expand upon standard k-fold cross validation approaches in their field of computational materials science. For certain materials, the authors found that predictive testing and subsequent cross validation by means of the k-fold approach is not comprehensive enough, leading the authors to expand upon k-fold cross validation in order to test samples outside of the range of the training sets used in the analysis. This paper gives a comprehensive overview of what k-fold cross validation is, and the limitations of it as seen in the need to expand upon the approach further to achieve the desired results. In this case, the desired results are a more accurate prediction of what model fits best.
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+Article 2:
+
+Citation: Marcot, B. G., & Hanea, A. M. (2021). What is an optimal value of k in k-fold cross-validation in discrete Bayesian network analysis?. Computational Statistics, 36(3), 2009-2031.
+
+Title: What is an optimal value of k in k-fold cross-validation in discrete Bayesian network analysis?
+
+Summary:  The authors of this paper provide their evidence from their study that explores the ideal value of k for k-fold cross validation analysis. The research showed that the ideal value of k is 10, however 5 can be sufficient in some cases. The paper explains the basis of k-fold cross validation and how the value of k can influence the results of the analysis, which is of extreme importance when such analyses are used to examine best fitting models.   
+
+
+## Week 3 Research
+
+Article 1:
+
+Lei, J. (2020). Cross-validation with confidence. Journal of the American Statistical Association, 115(532), 1978-1997.
+
+Goal of the paper: Find a solution to cross-validation techniques providing over-fitting models. The author wants to be able to test which models fit best, but the goal seems to be increasing accuracy.
+
+Why it is important: This is important, as cross validation in itself seeks to provide a more accurate answer. This essentially is seeking to narrow the output into something even more accurate. 
+
+How it is solved/methods: The authors solved this answer with specialized variable selection and performing subsequent linear regression analysis on the models they tested.
+
+Results/Limitations: The authors found that they were able to produce more accurate results that were also equally understandable in the sense of understanding the interpretation of their new results. 
+
+ 
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+Article 2:
+
+Saud, S., Jamil, B., Upadhyay, Y., & Irshad, K. (2020). Performance improvement of empirical models for estimation of global solar radiation in India: A k-fold cross-validation approach. Sustainable Energy Technologies and Assessments, 40, 100768.
+
+Goal of the paper: The goal of this paper was for the authors to explain how they found a method that provides more accurate predicted values using  version of k-fold cross validation analysis.
+
+Why it is important: It is extremely important as any refinement to analytical testing can provide more accurate results. The importance is also seen in the topic in which the authors focused on, namely estimating global solar radiation levels. 
+
+How it is solved/methods: The methods of approaching this were based on the k-fold approach which involves taking k-1 number of groups into analysis, where k = the number of predictors in a model. 
+
+Results/Limitations: The results of this paper were a more accurate predicted level of global radiation, which the authors explain in the paper using jargon relative to that topic (which I do not fully understand to be quite honest). I understand the basis of it from a statistics perspective, but not the specific levels they were interested in analyzing due to my lack of understanding around radiation. 
