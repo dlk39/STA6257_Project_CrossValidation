@@ -154,3 +154,22 @@ Why it is important: It is extremely important as any refinement to analytical t
 How it is solved/methods: The methods of approaching this were based on the k-fold approach which involves taking k-1 number of groups into analysis, where k = the number of predictors in a model. 
 
 Results/Limitations: The results of this paper were a more accurate predicted level of global radiation, which the authors explain in the paper using jargon relative to that topic (which I do not fully understand to be quite honest). I understand the basis of it from a statistics perspective, but not the specific levels they were interested in analyzing due to my lack of understanding around radiation. 
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+## Week 4 Research
+
+
+Article 1:
+
+Bates, S., Hastie, T., & Tibshirani, R. (2023). Cross-validation: what does it estimate and how well does it do it?. Journal of the American Statistical Association, 1-12.
+
+This paper presents research on the general nature of what cross-validation accomplishes. Research is also presented that supports the hypothesis that cross validation is not always an all-encompassing technique to validate results. A more comprehensive approach to cross validation is then presented along with research that supports how this new cumulative test covers all bases compared to traditional cross-validation techniques (the paper mostly references k-fold and leave-one-out).
+
+
+Article 2:
+
+Fong, E., & Holmes, C. C. (2020). On the marginal likelihood and cross-validation. Biometrika, 107(2), 489-496.
+
+This paper compares using the approaches of marginal likelihood against cross-validation techniques, namely the k-fold and leave-one-out approaches. Similar to the first article I have summarized for this week, the authors of this paper present their research that fills in gaps where cross-validation cannot quite cover. They essentially have developed an approach to do the task that cross-validation accomplishes with more accuracy, combining both marginal likelihood and cross-validation approaches together and presenting work that supports its increased accuracy compared to traditional approaches.
+---------------------------------------------------------------------------------------------------------------------------------
