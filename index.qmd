@@ -1,7 +1,7 @@
 ---
 title: "Sample Report - Data Science Capstone"
 author: "Danielle Koche"
-date: '`r Sys.Date()`'
+date: '`r Sys.Date(6 February 2024)`'
 format:
   html:
     code-fold: true
@@ -85,4 +85,4 @@ Article 2:
 Fong, E., & Holmes, C. C. (2020). On the marginal likelihood and cross-validation. Biometrika, 107(2), 489-496.
 
 This paper compares using the approaches of marginal likelihood against cross-validation techniques, namely the k-fold and leave-one-out approaches. Similar to the first article I have summarized for this week, the authors of this paper present their research that fills in gaps where cross-validation cannot quite cover. They essentially have developed an approach to do the task that cross-validation accomplishes with more accuracy, combining both marginal likelihood and cross-validation approaches together and presenting work that supports its increased accuracy compared to traditional approaches.
----------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------
